@@ -1,0 +1,71 @@
+{
+  "input": {
+    "35->36": 804,
+    "36->37": 1233
+  },
+  "dedup": {
+    "35->36": {
+      "rows_in": 804,
+      "unique_api_keys": 804,
+      "intra_period_duplicates": 0
+    },
+    "36->37": {
+      "rows_in": 1233,
+      "unique_api_keys": 1233,
+      "intra_period_duplicates": 0
+    },
+    "intra_period_total": 0,
+    "cross_period_apis": 19,
+    "events_total": 2037,
+    "unique_apis": 2018,
+    "unique_rows_written": 2018
+  },
+  "fix": {
+    "class_decl_rebuilt": 128,
+    "used_raw_literal": 446,
+    "literal_rewritten": 0,
+    "abbrev_only": 446,
+    "empty_display": 0
+  },
+  "noise": {
+    "modifier_render_only": 21
+  },
+  "removal_check": {
+    "hoisted_to_parent": 3,
+    "same_name_hint_only": 2,
+    "counted_removal": 32,
+    "excluded_removal": 62
+  },
+  "checks": [
+    {
+      "name": "事件表与原两表行数一致",
+      "pass": true,
+      "value": "2037"
+    },
+    {
+      "name": "同期内无重复 api_key",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "name": "唯一表中 api_id 不重复",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "name": "展示签名无 '::' 残留",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "name": "展示签名非空",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "name": "实质变动数 = 非噪声结构变动",
+      "pass": true,
+      "value": "1702"
+    }
+  ]
+}

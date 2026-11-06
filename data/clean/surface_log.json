@@ -1,0 +1,77 @@
+{
+  "versions": {
+    "35": {
+      "total": 52321,
+      "by_kind": {
+        "class": 3350,
+        "ctor": 2818,
+        "field": 18818,
+        "method": 27032,
+        "enum_constant": 303
+      },
+      "flagged": 1437,
+      "deprecated": 5677,
+      "with_literal": 16529
+    },
+    "36": {
+      "total": 53610,
+      "by_kind": {
+        "class": 3438,
+        "ctor": 2873,
+        "field": 19416,
+        "method": 27579,
+        "enum_constant": 304
+      },
+      "flagged": 2551,
+      "deprecated": 5775,
+      "with_literal": 17100
+    },
+    "37": {
+      "total": 54272,
+      "by_kind": {
+        "class": 3516,
+        "ctor": 2898,
+        "field": 19857,
+        "method": 27697,
+        "enum_constant": 304
+      },
+      "flagged": 4108,
+      "deprecated": 5870,
+      "with_literal": 17487
+    }
+  },
+  "unique_api": 55536,
+  "cleaning": {
+    "35": {
+      "annotation_markers_removed": 23219,
+      "field_with_literal": 16518,
+      "resource_class_skipped": 2916,
+      "normalized": 21521,
+      "method_with_throws": 1001,
+      "annotation_type_kept": 8,
+      "flag_inherited_from_class": 537,
+      "annotation_member_with_default": 11
+    },
+    "36": {
+      "annotation_markers_removed": 24618,
+      "field_with_literal": 17089,
+      "resource_class_skipped": 2965,
+      "normalized": 21946,
+      "method_with_throws": 1009,
+      "annotation_type_kept": 8,
+      "flag_inherited_from_class": 1024,
+      "annotation_member_with_default": 11
+    },
+    "37": {
+      "annotation_markers_removed": 26304,
+      "field_with_literal": 17476,
+      "resource_class_skipped": 3010,
+      "normalized": 22100,
+      "method_with_throws": 1014,
+      "annotation_type_kept": 8,
+      "flag_inherited_from_class": 1690,
+      "annotation_member_with_default": 11
+    }
+  },
+  "cross_check_build_diff": "pass"
+}
